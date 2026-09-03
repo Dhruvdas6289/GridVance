@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 
 :root {
-  --black: #0F172A;
-  --dark: #002D34;
-  --cream: #FAFAFA;
-  --white: #FFFFFF;
-  --gray: #64748B;
-  --light-gray: #E2E8F0;
-  --gold: #00E5FF;
+  --black: #11110f;
+  --dark: #171714;
+  --cream: #f3f0e8;
+  --white: #faf9f5;
+  --gray: #8b8982;
+  --light-gray: #d8d5cc;
+  --gold: #b49a68;
 
   font-family: "DM Sans", sans-serif;
   color: var(--black);
@@ -74,11 +74,11 @@ img {
 }
 
 .eyebrow.light {
-  color: #94A3B8;
+  color: #aaa79e;
 }
 
 .section-number {
-  color: #94A3B8;
+  color: #aaa79e;
   font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -174,7 +174,6 @@ h2 {
 
 .nav-cta span {
   font-size: 15px;
-  color: var(--gold);
 }
 
 .menu-toggle {
@@ -203,7 +202,7 @@ h2 {
   align-items: center;
   overflow: hidden;
   color: white;
-  background: var(--dark);
+  background: var(--black);
 }
 
 .hero-background {
@@ -213,9 +212,9 @@ h2 {
   background:
     linear-gradient(
       90deg,
-      rgba(0, 45, 52, 0.92) 0%,
-      rgba(0, 45, 52, 0.65) 48%,
-      rgba(0, 45, 52, 0.3) 100%
+      rgba(10, 10, 9, 0.88) 0%,
+      rgba(10, 10, 9, 0.55) 48%,
+      rgba(10, 10, 9, 0.2) 100%
     ),
     url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2400&q=90")
       center / cover;
@@ -248,7 +247,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   margin-bottom: 35px;
-  color: #E2E8F0;
+  color: #d5d2ca;
 }
 
 .label-line {
@@ -265,7 +264,7 @@ h2 {
 }
 
 .hero h1 em {
-  color: #23CED9;
+  color: #d4c5a6;
 }
 
 .hero-bottom {
@@ -278,7 +277,7 @@ h2 {
 
 .hero-bottom p {
   max-width: 350px;
-  color: #CBD5E1;
+  color: #c4c1b9;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -313,7 +312,6 @@ h2 {
   top: 25px;
   font-size: 18px;
   font-weight: 400;
-  color: var(--gold);
 }
 
 .hero-scroll {
@@ -357,14 +355,14 @@ h2 {
 
 .intro h2 span {
   font-family: "Playfair Display", serif;
-  color: var(--gray);
+  color: #9d9a91;
 }
 
 .large-text {
   max-width: 670px;
   font-size: 20px;
   line-height: 1.65;
-  color: #334155;
+  color: #66645e;
   font-weight: 300;
 }
 
@@ -376,12 +374,10 @@ h2 {
   border-bottom: 1px solid var(--black);
   padding-bottom: 8px;
   font-size: 12px;
-  color: var(--dark);
 }
 
 .text-link span {
   margin-left: 20px;
-  color: var(--gold);
 }
 
 /* =================================
@@ -406,7 +402,7 @@ h2 {
 
 .services-list {
   margin-top: 110px;
-  border-top: 1px solid #0E424B;
+  border-top: 1px solid #383833;
 }
 
 .service-item {
@@ -415,7 +411,7 @@ h2 {
   gap: 30px;
   align-items: center;
   padding: 40px 0;
-  border-bottom: 1px solid #0E424B;
+  border-bottom: 1px solid #383833;
   transition: padding 0.3s ease;
 }
 
@@ -425,7 +421,7 @@ h2 {
 }
 
 .service-item > span:first-child {
-  color: #94A3B8;
+  color: #76746d;
   font-size: 10px;
 }
 
@@ -436,7 +432,7 @@ h2 {
 }
 
 .service-item p {
-  color: #94A3B8;
+  color: #8e8c84;
   font-size: 13px;
   line-height: 1.7;
   max-width: 400px;
@@ -469,7 +465,7 @@ h2 {
 
 .project-image {
   overflow: hidden;
-  background: #E2E8F0;
+  background: #ddd;
 }
 
 .project-image img {
@@ -540,7 +536,7 @@ h2 {
   inset: 0;
 
   background:
-    linear-gradient(rgba(0, 45, 52, 0.82), rgba(0, 45, 52, 0.88)),
+    linear-gradient(rgba(15, 15, 13, 0.68), rgba(15, 15, 13, 0.72)),
     url("https://images.unsplash.com/photo-1497366412874-3415097a27e7?auto=format&fit=crop&w=2200&q=85")
       center / cover;
 }
@@ -551,7 +547,7 @@ h2 {
 }
 
 .light-number {
-  color: #94A3B8;
+  color: #aaa79e;
   margin-bottom: 80px;
 }
 
@@ -561,7 +557,7 @@ h2 {
 }
 
 .cta-content h2 em {
-  color: #00E5FF;
+  color: #d2c29f;
 }
 
 .cta-button {
@@ -571,12 +567,10 @@ h2 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   padding-bottom: 12px;
   font-size: 13px;
-  color: var(--white);
 }
 
 .cta-button span {
   font-size: 20px;
-  color: var(--gold);
 }
 
 /* =================================
@@ -584,7 +578,7 @@ h2 {
 ================================= */
 
 .footer {
-  background: var(--dark);
+  background: var(--black);
   color: white;
   padding: 100px 0 30px;
 }
@@ -602,7 +596,7 @@ h2 {
 }
 
 .footer-description {
-  color: #94A3B8;
+  color: #85837c;
   max-width: 310px;
   font-size: 13px;
   line-height: 1.7;
@@ -615,7 +609,7 @@ h2 {
 }
 
 .footer-links h4 {
-  color: #00E5FF;
+  color: #68665f;
   font-size: 9px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -626,7 +620,7 @@ h2 {
   display: block;
   font-size: 12px;
   margin-bottom: 13px;
-  color: #CBD5E1;
+  color: #bbb8af;
   transition: color 0.3s ease;
 }
 
@@ -635,11 +629,11 @@ h2 {
 }
 
 .footer-bottom {
-  border-top: 1px solid #0E424B;
+  border-top: 1px solid #2b2b27;
   padding-top: 25px;
   display: flex;
   justify-content: space-between;
-  color: #94A3B8;
+  color: #57554f;
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -668,12 +662,12 @@ h2 {
 }
 
 .contact-hero h1 em {
-  color: #00E5FF;
+  color: #cdbd9d;
 }
 
 .contact-intro {
   max-width: 460px;
-  color: #94A3B8;
+  color: #96938b;
   line-height: 1.7;
   font-size: 14px;
 }
@@ -713,7 +707,6 @@ h2 {
 
 .contact-detail a:hover {
   text-decoration: underline;
-  color: var(--dark);
 }
 
 .social-links {
@@ -744,7 +737,7 @@ h2 {
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 0.13em;
-  color: var(--gray);
+  color: #77756e;
 }
 
 .form-group input,
@@ -752,7 +745,7 @@ h2 {
 .form-group select {
   width: 100%;
   border: 0;
-  border-bottom: 1px solid #CBD5E1;
+  border-bottom: 1px solid #bdbab1;
   background: transparent;
   padding: 12px 0 15px;
   outline: none;
@@ -769,12 +762,12 @@ h2 {
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  border-color: var(--dark);
+  border-color: var(--black);
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: #94A3B8;
+  color: #aaa79f;
 }
 
 .submit-button {
@@ -784,16 +777,13 @@ h2 {
   gap: 60px;
   padding: 17px 0;
   border: 0;
-  border-bottom: 1px solid var(--dark);
+  border-bottom: 1px solid var(--black);
   background: transparent;
   font-size: 12px;
-  color: var(--dark);
-  font-weight: 600;
 }
 
 .submit-button span {
   font-size: 18px;
-  color: var(--gold);
 }
 
 .submit-button:hover span {
@@ -810,12 +800,11 @@ h2 {
 .success-icon {
   width: 50px;
   height: 50px;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--black);
   border-radius: 50%;
   display: grid;
   place-items: center;
   margin-bottom: 35px;
-  color: var(--gold);
 }
 
 .success-message h2 {
@@ -847,13 +836,12 @@ h2 {
   justify-content: center;
   flex-direction: column;
   color: white;
-  background: rgba(0, 45, 52, 0.45);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .contact-image-overlay span {
   font-size: 12px;
   letter-spacing: 0.2em;
-  color: var(--gold);
 }
 
 .contact-image-overlay strong {
