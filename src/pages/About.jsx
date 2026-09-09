@@ -111,7 +111,7 @@ function About() {
             </p>
 
             <Link to="/contact" className="text-link">
-              Start building your presence <span>↗</span>
+              Start building your presence <span></span>
             </Link>
           </div>
         </div>
@@ -132,7 +132,7 @@ function About() {
 
           <Link to="/contact" className="cta-button">
             Let's discuss your project
-            <span>↗</span>
+            <span></span>
           </Link>
         </div>
       </section>
