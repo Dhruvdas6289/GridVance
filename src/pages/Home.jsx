@@ -360,14 +360,14 @@ function Home() {
                 <div className="project-image">
                   <img
                     src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1800&q=85"
-                    alt="Roast & Brew Artisan Café"
+                    alt="Ember & Olive Café"
                   />
                 </div>
 
                 <div className="project-info">
                   <div>
-                    <h3>Roast & Brew <span></span></h3>
-                    <p>Artisan Café · Brand & Experience</p>
+                    <h3>Ember & Olive <span></span></h3>
+                    <p>Ember & Olive Café · Brand & Experience</p>
                   </div>
                   <span>2026</span>
                 </div>
