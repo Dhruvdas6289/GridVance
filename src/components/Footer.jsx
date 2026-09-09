@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-top">
           <div>
             <Link to="/" className="brand footer-brand">
-              GridVance<span>®</span>
+              TarVance<span>®</span>
             </Link>
 
             <p className="footer-description">
@@ -99,7 +99,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 GridVance Studio. All rights reserved.</span>
+          <span>© 2026 TarVance Studio. All rights reserved.</span>
           <span>Made with intention.</span>
         </div>
       </div>

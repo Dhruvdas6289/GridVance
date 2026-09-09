@@ -233,15 +233,15 @@ function Home() {
           </div>
 
           <h1>
-            We create
+            We Build
             <br />
-            <em>digital</em> experiences.
+            <em>digital</em> solutions.
+            <span className="hero-subheading">that help businesses grow.</span>
           </h1>
 
           <div className="hero-bottom">
             <p>
-              Strategy, design and technology for brands that believe
-              ordinary isn't enough.
+              Your business deserves more than just a website — it deserves a digital presence that delivers
             </p>
 
             <Link to="/contact" className="circle-button">

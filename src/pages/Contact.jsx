@@ -33,8 +33,8 @@
 
 //           <div className="contact-detail">
 //             <span>Email</span>
-//             <a href="mailto:hello@GridVance.studio">
-//               hello@GridVance.studio
+//             <a href="mailto:hello@TarVance.studio">
+//               hello@TarVance.studio
 //             </a>
 //           </div>
 
@@ -162,7 +162,7 @@
 //       <div className="contact-image-section">
 //         <img
 //           src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=85"
-//           alt="GridVance studio"
+//           alt="TarVance studio"
 //         />
 
 //         <div className="contact-image-overlay">
@@ -244,8 +244,8 @@ return ( <section className="contact-page"> <div className="contact-hero"> <div 
 
       <div className="contact-detail">
         <span>Email</span>
-        <a href="mailto:hello@GridVance.studio">
-          hello@GridVance.studio
+        <a href="mailto:hello@TarVance.studio">
+          hello@TarVance.studio
         </a>
       </div>
 
@@ -306,7 +306,7 @@ return ( <section className="contact-page"> <div className="contact-hero"> <div 
                 id="name"
                 name="name"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Your Name"
                 required
               />
             </div>
@@ -320,7 +320,7 @@ return ( <section className="contact-page"> <div className="contact-hero"> <div 
                 id="email"
                 name="email"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="Your Email Address"
                 required
               />
             </div>
@@ -403,7 +403,7 @@ return ( <section className="contact-page"> <div className="contact-hero"> <div 
   <div className="contact-image-section">
     <img
       src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=85"
-      alt="GridVance studio"
+      alt="TarVance studio"
     />
 
     <div className="contact-image-overlay">
