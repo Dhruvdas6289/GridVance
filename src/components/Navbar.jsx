@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+// 1. Import your logo file from your assets folder
+import logo from "../assets/logo.jpeg"; 
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +12,10 @@ function Navbar() {
     <header className="navbar-wrapper">
       <nav className="navbar container">
         <Link to="/" className="brand" onClick={closeMenu}>
-          GridVance<span>®</span>
+          {/* 2. Render the logo image */}
+          <img src={logo} alt="TarVance Logo" className="brand-logo" />
+          <span>Tarvance</span>
+          <span className="trademark">®</span>
         </Link>
 
         <button
@@ -38,10 +43,17 @@ function Navbar() {
           >
             Contact
           </NavLink>
+          <NavLink
+  to="/about"
+  className={({ isActive }) => (isActive ? "active" : "")}
+  onClick={closeMenu}
+>
+  About
+</NavLink>
 
           <Link to="/contact" className="nav-cta" onClick={closeMenu}>
             Start a Project
-            <span>↗</span>
+            <span></span>
           </Link>
         </div>
       </nav>
