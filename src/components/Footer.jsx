@@ -99,7 +99,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 TarVance Studio. All rights reserved.</span>
+          <span>© 2026 TarVance . All rights reserved.</span>
           <span>Made with intention.</span>
         </div>
       </div>

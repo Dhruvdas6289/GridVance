@@ -110,9 +110,9 @@ function About() {
               Our approach is simple—understand your business, build the right digital presence, and help you grow online with clarity and purpose.
             </p>
 
-            <Link to="/contact" className="text-link">
+            {/* <Link to="/contact" className="text-link">
               Start building your presence <span></span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

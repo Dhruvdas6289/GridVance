@@ -157,6 +157,10 @@ h2 {
   text-decoration: none;
   color: var(--text-heading);
 }
+.brand span:not(.trademark) {
+  font-size: 20px; /* Increased text size (adjust to 30px-32px if you want it even larger) */
+
+}
 
 .brand-logo {
   height: 75px;
@@ -196,28 +200,35 @@ h2 {
 }
 
 .nav-cta {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 15px;
-  background: var(--accent-blue);
-  color: var(--text-heading);
+  gap: 12px;
+  background: var(--accent-blue); /* #2F80ED */
+  color: #ffffff !important;
   border: 1px solid var(--accent-blue);
-  padding: 12px 20px;
-  font-size: 13px;
+  padding: 12px 28px;              /* Generous horizontal padding for capsule feel */
+  border-radius: 9999px;           /* Full capsule pill shape */
+  font-size: 14px;
   font-weight: 500;
-  border-radius: 4px;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .nav-cta:hover {
-  background: var(--accent-blue-hover);
+  background: var(--accent-blue-hover); /* #1b68ce */
   border-color: var(--accent-blue-hover);
-  color: var(--text-heading);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(47, 128, 237, 0.35);
 }
 
 .nav-cta span {
   font-size: 16px;
-  color: var(--text-heading);
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.nav-cta:hover span {
+  transform: translate(3px, -3px);
 }
 
 .menu-toggle {
@@ -285,7 +296,7 @@ h2 {
   align-items: center;
   gap: 15px;
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.18em;
   margin-bottom: 35px;
   color: var(--text-body);
@@ -657,7 +668,7 @@ h2 {
   background: var(--accent-blue);
   color: var(--text-heading);
   padding: 16px 36px;
-  border-radius: 4px;
+  border-radius: 9999px;
   font-size: 15px;
   font-weight: 500;
   transition: background 0.3s ease;
@@ -765,7 +776,7 @@ h2 {
 
 .about-hero h1 {
   font-size: clamp(55px, 7.5vw, 110px);
-  line-height: 0.9;
+  line-height: 1.15;
   letter-spacing: -0.05em;
   margin-bottom: 40px;
   max-width: 950px;
@@ -937,30 +948,41 @@ h2 {
 
 .submit-button {
   width: fit-content;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   padding: 16px 36px;
-  border: 0;
+  border: 1px solid transparent;
+  border-radius: 9999px;
   background: var(--accent-blue);
   color: var(--text-heading);
   font-size: 14px;
   font-weight: 600;
-  border-radius: 4px;
-  transition: background 0.3s ease;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .submit-button span {
-  font-size: 20px;
+  display: inline-block;
+  font-size: 18px;
   color: var(--text-heading);
+  transition: transform 0.3s ease;
 }
 
-.submit-button:hover {
+.submit-button:hover:not(:disabled) {
   background: var(--accent-blue-hover);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
 }
 
-.submit-button:hover span {
-  transform: translate(3px, -3px);
+.submit-button:hover:not(:disabled) span {
+  transform: translate(4px, -2px);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .success-message {
@@ -1257,6 +1279,7 @@ h2 {
   font-weight: 400;
   letter-spacing: -0.02em;
   color: var(--text-body); /* #A9B7CC */
-  margin-top: 20px;
+  margin-top: 30px;
   text-transform: capitalize;
 }
+
