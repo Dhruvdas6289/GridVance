@@ -377,7 +377,7 @@ function Home() {
             {/* Project 2: High-Performance Gym */}
             <article className="project project-small">
               <a
-                href="https://example.com/iron-pulse"
+                href="https://sukreet018.github.io/gymx"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
@@ -385,14 +385,14 @@ function Home() {
                 <div className="project-image">
                   <img
                     src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85"
-                    alt="Iron & Pulse Athletic Club"
+                    alt="GymX"
                   />
                 </div>
 
                 <div className="project-info">
                   <div>
-                    <h3>Iron & Pulse <span></span></h3>
-                    <p>Fitness & Performance Gym · Web App</p>
+                    <h3>GymX <span></span></h3>
+                    <p>Fitness & Performance Gym</p>
                   </div>
                   <span>2026</span>
                 </div>
@@ -402,7 +402,7 @@ function Home() {
             {/* Project 3: Luxury Salon & Spa */}
             <article className="project project-medium">
               <a
-                href="https://example.com/aura-spa"
+                href="https://dhruvdas6289.github.io/LuminaSpa-Saloon"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
@@ -410,13 +410,13 @@ function Home() {
                 <div className="project-image">
                   <img
                     src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
-                    alt="Aura Wellness Salon & Spa"
+                    alt="Lumina Spa & Salon"
                   />
                 </div>
 
                 <div className="project-info">
                   <div>
-                    <h3>Aura Wellness <span></span></h3>
+                    <h3>Lumina Spa & Salon <span></span></h3>
                     <p>Luxury Salon & Spa · Digital Booking</p>
                   </div>
                   <span>2025</span>

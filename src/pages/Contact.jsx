@@ -351,7 +351,7 @@ return ( <section className="contact-page"> <div className="contact-hero"> <div 
               defaultValue=""
             >
               <option value="" disabled>
-                Select a service ⬇
+                Select a service ▽
               </option>
 
               <option value="branding">
